@@ -1,0 +1,16 @@
+{
+    "name": "bluetooth-init",
+    "version": "1.0.0",
+    "description": "Initializes Bluetooth on start for discoverability.",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "bluetooth-init.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
