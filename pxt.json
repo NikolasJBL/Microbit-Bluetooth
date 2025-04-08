@@ -2,16 +2,21 @@
     "name": "bluetooth-init",
     "version": "1.0.0",
     "description": "Initializes Bluetooth on start for discoverability.",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "bluetooth": "*"
     },
     "files": [
-        "bluetooth-init.ts"
+        "bluetooth-init.ts",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true
-    "supportedTargets": ["microbit"]
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
